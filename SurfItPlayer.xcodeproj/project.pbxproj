@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4450B4662AAA6CA3008667F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450B4652AAA6CA3008667F2 /* AppDelegate.swift */; };
+		4450B4682AAA6CA3008667F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450B4672AAA6CA3008667F2 /* SceneDelegate.swift */; };
+		4450B46A2AAA6CA3008667F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450B4692AAA6CA3008667F2 /* ViewController.swift */; };
+		4450B46D2AAA6CA3008667F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4450B46B2AAA6CA3008667F2 /* Main.storyboard */; };
+		4450B46F2AAA6CA5008667F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4450B46E2AAA6CA5008667F2 /* Assets.xcassets */; };
+		4450B4722AAA6CA5008667F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4450B4702AAA6CA5008667F2 /* LaunchScreen.storyboard */; };
+		4450B4802AAA7087008667F2 /* classic3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4450B47C2AAA7087008667F2 /* classic3.mp3 */; };
+		4450B4812AAA7087008667F2 /* classic1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4450B47D2AAA7087008667F2 /* classic1.mp3 */; };
+		4450B4822AAA7087008667F2 /* classic2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4450B47E2AAA7087008667F2 /* classic2.mp3 */; };
+		4450B4832AAA7087008667F2 /* classic4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4450B47F2AAA7087008667F2 /* classic4.mp3 */; };
+		4450B4862AAA710B008667F2 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450B4852AAA710B008667F2 /* Track.swift */; };
+		4450B48C2AAA71C7008667F2 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450B48B2AAA71C7008667F2 /* TrackListViewController.swift */; };
+		4450B48F2AAA721E008667F2 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4450B48E2AAA721E008667F2 /* PlayerViewController.swift */; };
+		5CC8EAA32AABD0F9004293CB /* PlayerMP3Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8EAA22AABD0F9004293CB /* PlayerMP3Service.swift */; };
+		5CC8EAA52AABD117004293CB /* TrackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC8EAA42AABD117004293CB /* TrackService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4450B4622AAA6CA3008667F2 /* SurfItPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurfItPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4450B4652AAA6CA3008667F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4450B4672AAA6CA3008667F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4450B4692AAA6CA3008667F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4450B46C2AAA6CA3008667F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4450B46E2AAA6CA5008667F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4450B4712AAA6CA5008667F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4450B4732AAA6CA5008667F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4450B47C2AAA7087008667F2 /* classic3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = classic3.mp3; sourceTree = "<group>"; };
+		4450B47D2AAA7087008667F2 /* classic1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = classic1.mp3; sourceTree = "<group>"; };
+		4450B47E2AAA7087008667F2 /* classic2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = classic2.mp3; sourceTree = "<group>"; };
+		4450B47F2AAA7087008667F2 /* classic4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = classic4.mp3; sourceTree = "<group>"; };
+		4450B4852AAA710B008667F2 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		4450B48B2AAA71C7008667F2 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		4450B48E2AAA721E008667F2 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		5CC8EAA22AABD0F9004293CB /* PlayerMP3Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerMP3Service.swift; sourceTree = "<group>"; };
+		5CC8EAA42AABD117004293CB /* TrackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4450B45F2AAA6CA3008667F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4450B4592AAA6CA3008667F2 = {
+			isa = PBXGroup;
+			children = (
+				4450B4642AAA6CA3008667F2 /* SurfItPlayer */,
+				4450B4632AAA6CA3008667F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4450B4632AAA6CA3008667F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4450B4622AAA6CA3008667F2 /* SurfItPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4450B4642AAA6CA3008667F2 /* SurfItPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				5CC8EAA12AABD0EC004293CB /* Servises */,
+				4450B47A2AAA6D79008667F2 /* SupportingFiles */,
+				4450B4792AAA6D4C008667F2 /* Applications */,
+				4450B47B2AAA705E008667F2 /* MediaFiles */,
+				4450B4842AAA70D8008667F2 /* Models */,
+				4450B4872AAA7157008667F2 /* Views */,
+				4450B4882AAA7167008667F2 /* Controllers */,
+				4450B4732AAA6CA5008667F2 /* Info.plist */,
+			);
+			path = SurfItPlayer;
+			sourceTree = "<group>";
+		};
+		4450B4792AAA6D4C008667F2 /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				4450B4652AAA6CA3008667F2 /* AppDelegate.swift */,
+				4450B4672AAA6CA3008667F2 /* SceneDelegate.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		4450B47A2AAA6D79008667F2 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4450B46E2AAA6CA5008667F2 /* Assets.xcassets */,
+				4450B4702AAA6CA5008667F2 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		4450B47B2AAA705E008667F2 /* MediaFiles */ = {
+			isa = PBXGroup;
+			children = (
+				4450B47D2AAA7087008667F2 /* classic1.mp3 */,
+				4450B47E2AAA7087008667F2 /* classic2.mp3 */,
+				4450B47C2AAA7087008667F2 /* classic3.mp3 */,
+				4450B47F2AAA7087008667F2 /* classic4.mp3 */,
+			);
+			path = MediaFiles;
+			sourceTree = "<group>";
+		};
+		4450B4842AAA70D8008667F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4450B4852AAA710B008667F2 /* Track.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4450B4872AAA7157008667F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4450B46B2AAA6CA3008667F2 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4450B4882AAA7167008667F2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4450B4892AAA7180008667F2 /* TrackList */,
+				4450B48D2AAA720A008667F2 /* Player */,
+				4450B4692AAA6CA3008667F2 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4450B4892AAA7180008667F2 /* TrackList */ = {
+			isa = PBXGroup;
+			children = (
+				4450B48B2AAA71C7008667F2 /* TrackListViewController.swift */,
+			);
+			path = TrackList;
+			sourceTree = "<group>";
+		};
+		4450B48D2AAA720A008667F2 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				4450B48E2AAA721E008667F2 /* PlayerViewController.swift */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		5CC8EAA12AABD0EC004293CB /* Servises */ = {
+			isa = PBXGroup;
+			children = (
+				5CC8EAA22AABD0F9004293CB /* PlayerMP3Service.swift */,
+				5CC8EAA42AABD117004293CB /* TrackService.swift */,
+			);
+			path = Servises;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4450B4612AAA6CA3008667F2 /* SurfItPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4450B4762AAA6CA5008667F2 /* Build configuration list for PBXNativeTarget "SurfItPlayer" */;
+			buildPhases = (
+				4450B45E2AAA6CA3008667F2 /* Sources */,
+				4450B45F2AAA6CA3008667F2 /* Frameworks */,
+				4450B4602AAA6CA3008667F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SurfItPlayer;
+			productName = SurfItPlayer;
+			productReference = 4450B4622AAA6CA3008667F2 /* SurfItPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4450B45A2AAA6CA3008667F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					4450B4612AAA6CA3008667F2 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4450B45D2AAA6CA3008667F2 /* Build configuration list for PBXProject "SurfItPlayer" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4450B4592AAA6CA3008667F2;
+			productRefGroup = 4450B4632AAA6CA3008667F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4450B4612AAA6CA3008667F2 /* SurfItPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4450B4602AAA6CA3008667F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4450B4722AAA6CA5008667F2 /* LaunchScreen.storyboard in Resources */,
+				4450B46F2AAA6CA5008667F2 /* Assets.xcassets in Resources */,
+				4450B4832AAA7087008667F2 /* classic4.mp3 in Resources */,
+				4450B4822AAA7087008667F2 /* classic2.mp3 in Resources */,
+				4450B46D2AAA6CA3008667F2 /* Main.storyboard in Resources */,
+				4450B4812AAA7087008667F2 /* classic1.mp3 in Resources */,
+				4450B4802AAA7087008667F2 /* classic3.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4450B45E2AAA6CA3008667F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4450B46A2AAA6CA3008667F2 /* ViewController.swift in Sources */,
+				5CC8EAA32AABD0F9004293CB /* PlayerMP3Service.swift in Sources */,
+				4450B4662AAA6CA3008667F2 /* AppDelegate.swift in Sources */,
+				5CC8EAA52AABD117004293CB /* TrackService.swift in Sources */,
+				4450B4682AAA6CA3008667F2 /* SceneDelegate.swift in Sources */,
+				4450B48C2AAA71C7008667F2 /* TrackListViewController.swift in Sources */,
+				4450B4862AAA710B008667F2 /* Track.swift in Sources */,
+				4450B48F2AAA721E008667F2 /* PlayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4450B46B2AAA6CA3008667F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4450B46C2AAA6CA3008667F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4450B4702AAA6CA5008667F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4450B4712AAA6CA5008667F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4450B4742AAA6CA5008667F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4450B4752AAA6CA5008667F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4450B4772AAA6CA5008667F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N48HVN9F4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SurfItPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dims.SurfItPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4450B4782AAA6CA5008667F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3N48HVN9F4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SurfItPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dims.SurfItPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4450B45D2AAA6CA3008667F2 /* Build configuration list for PBXProject "SurfItPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4450B4742AAA6CA5008667F2 /* Debug */,
+				4450B4752AAA6CA5008667F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4450B4762AAA6CA5008667F2 /* Build configuration list for PBXNativeTarget "SurfItPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4450B4772AAA6CA5008667F2 /* Debug */,
+				4450B4782AAA6CA5008667F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4450B45A2AAA6CA3008667F2 /* Project object */;
+}
