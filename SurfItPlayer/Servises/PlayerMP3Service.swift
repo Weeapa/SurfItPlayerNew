@@ -11,7 +11,7 @@ import AVFoundation
 final class PlayerMP3Service {
     private (set) var trackService: TrackService
     private (set) var selectedTrack: Track?
-    private var player = AVAudioPlayer()
+    public var player = AVAudioPlayer()
     
     init(trackService: TrackService) {
         self.trackService = trackService
@@ -36,6 +36,8 @@ final class PlayerMP3Service {
             player.volume = 1
             player.prepareToPlay()
             
+            
+            
             try AVAudioSession.sharedInstance().setCategory(
                 .playback, mode: .default, options: []
             )
@@ -49,5 +51,10 @@ final class PlayerMP3Service {
     
     func stopTrack() {
         player.stop()
+  
+    }
+    
+    func pauseTrack() {
+        player.pause()
     }
 }
